@@ -16,9 +16,9 @@ int inner_echo = 5;
 
 int full_cnt = 0;
 
-String userKey = "u9gnbfp4r56ob5qqgz1kqbot413vkc";     // your Pushover user key
-String apiToken = "a3bevaxbpens5x7hyai43ms1mcp42o";    // your Pushover API token
-String Title = "Smart Bin";                // your title of the message
+String userKey = " ";     // Pushover user key
+String apiToken = " ";    // Pushover API token
+String Title = "Smart Bin";                
  
 char ssid[] = "Hoi";                        
 char password[] = "123123123";
