@@ -6,8 +6,8 @@ SoftwareSerial Serial1(6, 7); // RX, TX
 #endif
 
 
-String userKey = "u9gnbfp4r56ob5qqgz1kqbot413vkc";     // your Pushover user key
-String apiToken = "a3bevaxbpens5x7hyai43ms1mcp42o";    // your Pushover API token
+String userKey = "";     // your Pushover user key
+String apiToken = "";    // your Pushover API token
 String Title = "ESP8266 Pushover Test";                // your title of the message
  
 char ssid[] = "Hoi";                        
@@ -46,7 +46,7 @@ void loop() {
 
   Serial.println("You're connected to the network");
   
-  sendToPushover("* Door OPEN !!! * 좀전에 문이 열렸습니다 *");  
+  sendToPushover("* Door OPEN !!! * 문이 열렸습니다 *");  
   while(true);
 }
  
